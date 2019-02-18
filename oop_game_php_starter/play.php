@@ -1,3 +1,8 @@
+<?php
+include ('Gme.php');
+include ('Phrse.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
