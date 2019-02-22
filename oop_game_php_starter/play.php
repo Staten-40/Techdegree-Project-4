@@ -3,7 +3,7 @@ include ('inc/Game.php');
 include ('inc/Phrase.php');
 $mclite = new Phrase;
 $game = new Game($mclite);
-echo($game->wha_chu_say()->wha_chu_say());
+echo($game->whaChuSay()->whaChuSay());
 ?>
 
 

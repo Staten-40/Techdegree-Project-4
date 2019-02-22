@@ -9,7 +9,7 @@ class Game
         $this->phrase = $phrase;
     }
 
-    function wha_chu_say() {
+    function whaChuSay() {
         return $this->phrase;
     }
 }

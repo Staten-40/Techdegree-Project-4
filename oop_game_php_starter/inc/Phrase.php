@@ -9,14 +9,22 @@ class Phrase
    function __construct($currentPhrase=null, $selected=null){
 
     if(!isset($currentPhrase)){
-        $this->currentPhrase = "Dream Big";
+        //$this->currentPhrase = "Dream Big";
+        $this->currentPhrase[] = 
+        "current_phrase => ucwords($currentPhrase)";
+        "selected => $selected";
 
     }
    }
 
-   function wha_chu_say() {
+   function whaChuSay() {
        return $this->currentPhrase;
    }
+}
+    function addPhraseToDisplay() {
+        return $this->
+    }
+   
   
 }
 
