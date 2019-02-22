@@ -4,7 +4,16 @@ class Game
 {
     private $phrase;
     private $lives = 5;
+
+    function __construct($phrase){
+        $this->phrase = $phrase;
+    }
+
+    function wha_chu_say() {
+        return $this->phrase;
+    }
 }
 
-$game = new Game();
-var_dump($game);
+
+
+//var_dump($game);
