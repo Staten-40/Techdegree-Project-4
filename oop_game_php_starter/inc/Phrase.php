@@ -25,5 +25,5 @@ class Phrase
    }
     
 }
-echo $phrase->addPhrasToDisplay();
+
 //var_dump($phrase);

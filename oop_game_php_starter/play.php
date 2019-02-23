@@ -4,6 +4,7 @@ include ('inc/Phrase.php');
 $mclite = new Phrase;
 $game = new Game($mclite);
 echo($game->getPhrase()->getPhrase());
+echo $phrase->addPhraseToDisplay();
 ?>
 
 
