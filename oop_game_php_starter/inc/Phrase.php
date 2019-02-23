@@ -9,23 +9,21 @@ class Phrase
    function __construct($currentPhrase=null, $selected=null){
 
     if(!isset($currentPhrase)){
-        //$this->currentPhrase = "Dream Big";
-        $this->currentPhrase[] = 
-        "current_phrase => ucwords($currentPhrase)";
-        "selected => $selected";
+        $this->currentPhrase = "Dream Big";   
 
     }
    }
 
-   function whaChuSay() {
+   function getPhrase() {
        return $this->currentPhrase;
    }
-}
-    function addPhraseToDisplay() {
-        return $this->
-    }
-   
-  
-}
 
+   function addPhraseToDisplay() {
+    //Split screen into lowercase chracters
+    $characters = str_split(strtolower($this->currentPhrase));
+
+   }
+    
+}
+echo $phrase->addPhrasToDisplay();
 //var_dump($phrase);
