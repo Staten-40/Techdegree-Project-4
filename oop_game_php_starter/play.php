@@ -1,11 +1,4 @@
-<?php
-include ('inc/Game.php');
-include ('inc/Phrase.php');
-$mclite = new Phrase;
-$game = new Game($mclite);
-echo($game->getPhrase()->getPhrase());
-echo $phrase->addPhraseToDisplay();
-?>
+
 
 
 <!DOCTYPE html>
@@ -21,9 +14,16 @@ echo $phrase->addPhraseToDisplay();
 
 <body>
 <div class="main-container">
-    <div id="banner" class="section">
-        <h2 class="header">Phrase Hunter</h2>
-    </div>
+           <h2 class="header">Phrase Hunter</h2>
+
+           <?php
+include ('inc/Game.php');
+include ('inc/Phrase.php');
+$phrase = new Phrase;
+$game = new Game($phrase);
+echo($game->getPhrase()->getPhrase());
+echo $phrase->addPhraseToDisplay();
+?>
 </div>
 
 </body>

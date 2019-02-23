@@ -20,7 +20,7 @@ class Phrase
 
    function addPhraseToDisplay() {
     //Split screen into lowercase chracters
-    $characters = str_split(strtolower($this->currentPhrase));
+    return $characters = str_split(strtolower($this->currentPhrase));
 
    }
     
