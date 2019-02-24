@@ -45,7 +45,7 @@ class Phrase
                  }
                 
                 }   
-                $output .= '<ul>';
+                $output .= '</ul>';
                  return $output; 
             }
      }                  
