@@ -22,8 +22,26 @@ class Phrase
 
    function addPhraseToDisplay() {
            //Split screen into lowercase chracters
-    return $characters = str_split(strtolower($this->currentPhrase));
+        $characters = str_split(strtolower($this->currentPhrase));
+        $output = '<ul>';
+        '<li class="hide letter h">h</li>';
+        '<li class="hide letter h">h</li>';
+        '<li class="hide letter o">o</li>';
+        '<li class="hide letter w">w</li>';
+        '<li class="hide space "> . " " .  </li>';
+        '<li class="hide letter a">a</li>';
+        '<li class="hide letter r">r</li>';
+        '<li class="hide letter e">e</li>';
+        '<li class="hide space"> . " " . </li>';
+        '<li class="hide letter y">y</li>';
+        '<li class="hide letter o">o</li>';
+        '<li class="hide letter u">u</li>';
 
+            foreach($charcters in $char) {
+        
+
+            }
+                   
    }
     
 }
