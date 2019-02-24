@@ -47,8 +47,11 @@ class Game
         <button class="key" name="qwerty" type="submit" value="c">c</button>
         <button class="key" name="qwerty" type="submit" value="v">v</button>
         <button class="key" name="qwerty" type="submit" value="b">b</button>
-<form>';
+        </div>
+        </div>
+</form>';
     }
+   
 }
 
 
