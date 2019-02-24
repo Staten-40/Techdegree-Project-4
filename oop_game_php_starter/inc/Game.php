@@ -12,6 +12,10 @@ class Game
     function getPhrase() {
         return $this->phrase;
     }
+
+    function displayKeyboard(){ 
+        $this->phrase->keyrow;
+    }
 }
 
 
