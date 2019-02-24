@@ -37,6 +37,9 @@ class Phrase
         $output .= '<li class="hide letter o">o</li>';
         $output .= '<li class="hide letter u">u</li>';
 
+        $output .= '<ul>';
+        return $output;
+
             foreach($charcters as $char) {
         
 
