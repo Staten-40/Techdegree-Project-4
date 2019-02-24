@@ -18,15 +18,10 @@ class Phrase
        return $this->currentPhrase;
    }
 
-   $character = "";
-   $character = $currentPhrase->getPhrase();
-   $character = implode($currentPhrase->getPhrase()());
+ 
 
    function addPhraseToDisplay() {
-       foreach($currentPhrase as $cpr) {
-         return $character = 
-       }
-    //Split screen into lowercase chracters
+           //Split screen into lowercase chracters
     return $characters = str_split(strtolower($this->currentPhrase));
 
    }
