@@ -24,8 +24,7 @@ class Phrase
            //Split screen into lowercase chracters
         $characters = str_split(strtolower($this->currentPhrase));
         $output = '<ul>';
-        $output .= '<li class="hide letter h">h</li>';
-        $output .= '<li class="hide letter h">h</li>';
+       /* $output .= '<li class="hide letter h">h</li>';
         $output .= '<li class="hide letter o">o</li>';
         $output .= '<li class="hide letter w">w</li>';
         $output .= '<li class="hide space "> . " " .  </li>';
@@ -35,18 +34,23 @@ class Phrase
         $output .= '<li class="hide space"> . " " . </li>';
         $output .= '<li class="hide letter y">y</li>';
         $output .= '<li class="hide letter o">o</li>';
-        $output .= '<li class="hide letter u">u</li>';
+        $output .= '<li class="hide letter u">u</li>';*/
 
         $output .= '<ul>';
         return $output;
 
-            foreach($charcters as $char) {
-        
-
+            foreach($characters as $char) {
+                if($char == " ") {
+                   $output .= '<li class="hide space "> . " " .  </li>';
+                } else {
+                   $output .= '<li class="hide letter $char">' . $char . '</li>';
+                    }
+                }   
+                
             }
-                   
-   }
-    
-}
+     }                  
+        
+   
+
 
 //var_dump($phrase);
