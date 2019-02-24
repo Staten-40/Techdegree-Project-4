@@ -49,6 +49,7 @@ class Game
 <form>';
     }
 }
+return displayKeyboard;
 
 
 
