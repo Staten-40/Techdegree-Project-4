@@ -40,7 +40,7 @@ class Phrase
                 if($char == " ") {
                    $output .= '<li class="hide space "> " " </li>';
                 } else {
-                   $output .= '<li class="hide letter' . "$char" .'>' . $char . '</li>';
+                    $output .=  "<li class=\"hide letter $char\"> $char</li>";
                    
                  }
                 
