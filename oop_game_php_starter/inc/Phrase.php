@@ -24,20 +24,20 @@ class Phrase
            //Split screen into lowercase chracters
         $characters = str_split(strtolower($this->currentPhrase));
         $output = '<ul>';
-        '<li class="hide letter h">h</li>';
-        '<li class="hide letter h">h</li>';
-        '<li class="hide letter o">o</li>';
-        '<li class="hide letter w">w</li>';
-        '<li class="hide space "> . " " .  </li>';
-        '<li class="hide letter a">a</li>';
-        '<li class="hide letter r">r</li>';
-        '<li class="hide letter e">e</li>';
-        '<li class="hide space"> . " " . </li>';
-        '<li class="hide letter y">y</li>';
-        '<li class="hide letter o">o</li>';
-        '<li class="hide letter u">u</li>';
+        $output .= '<li class="hide letter h">h</li>';
+        $output .= '<li class="hide letter h">h</li>';
+        $output .= '<li class="hide letter o">o</li>';
+        $output .= '<li class="hide letter w">w</li>';
+        $output .= '<li class="hide space "> . " " .  </li>';
+        $output .= '<li class="hide letter a">a</li>';
+        $output .= '<li class="hide letter r">r</li>';
+        $output .= '<li class="hide letter e">e</li>';
+        $output .= '<li class="hide space"> . " " . </li>';
+        $output .= '<li class="hide letter y">y</li>';
+        $output .= '<li class="hide letter o">o</li>';
+        $output .= '<li class="hide letter u">u</li>';
 
-            foreach($charcters in $char) {
+            foreach($charcters as $char) {
         
 
             }
