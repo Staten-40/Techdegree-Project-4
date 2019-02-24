@@ -14,6 +14,7 @@ class Game
     }
 
     function displayKeyboard(){ 
+        return
         '<form action="play.php" method ="post">
         <div id="qwerty" class="section">
     <div class="keyrow">
@@ -49,7 +50,7 @@ class Game
 <form>';
     }
 }
-return displayKeyboard;
+
 
 
 
