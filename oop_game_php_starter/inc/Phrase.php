@@ -36,21 +36,19 @@ class Phrase
         $output .= '<li class="hide letter o">o</li>';
         $output .= '<li class="hide letter u">u</li>';*/
 
-        $output .= '<ul>';
-        return $output;
-
-            foreach($characters as $char) {
+             foreach($characters as $char) {
                 if($char == " ") {
                    $output .= '<li class="hide space "> . " " .  </li>';
                 } else {
-                   $output .= '<li class="hide letter $char">' . $char . '</li>';
+                   $output .= '<li class="hide letter . $char">' . $char . '</li>';
                     }
                 }   
                 
             }
      }                  
         
-   
+     $output .= '<ul>';
+     return $output;
 
 
 //var_dump($phrase);
