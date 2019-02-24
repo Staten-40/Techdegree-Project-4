@@ -23,7 +23,14 @@ $phrase = new Phrase;
 $game = new Game($phrase);
 echo($game->getPhrase()->getPhrase());
 echo $phrase->addPhraseToDisplay();
-?>
+
+$game = $_POST['displayKeyboard'];
+    return $desk;
+  
+    echo $game->displayKeyvbord();
+    var_dump($_POST);
+   ?> 
+      
 </div>
 
 </body>
