@@ -43,10 +43,10 @@ class Phrase
                    $output .= '<li class="hide letter' . "$char" .'>' . $char . '</li>';
                    
                  }
-                 $output .= '<ul>';
-                 return $output;
-                }   
                 
+                }   
+                $output .= '<ul>';
+                 return $output; 
             }
      }                  
         
