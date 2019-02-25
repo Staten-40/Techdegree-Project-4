@@ -57,19 +57,19 @@ class Game
 function displayScore() {
     
    '<div id="scoreboard" class="section">'
-    $user = '<ol>';
+    $output .= '<ol>';
+       /*$user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
        $user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
        $user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
        $user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
        $user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
-       $user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
-   '</ol>';
+   '</ol>';*/
 '</div>';
 
-        for($score = 0; $score < 5; $score++) {
+        for($score = 0; $score < $this-lives; $score++) {
 
-         $user .= '</ol>';
-              return $user;
+         $output .= '</ol>';
+              return $return;
 
         }
         
