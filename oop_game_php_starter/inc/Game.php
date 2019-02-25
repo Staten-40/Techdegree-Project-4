@@ -58,18 +58,19 @@ function displayScore() {
     
    '<div id="scoreboard" class="section">'
     $output .= '<ol>';
-       /*$user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
-       $user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
-       $user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
-       $user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
-       $user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
+       /*$output .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
+       $output .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
+       $output .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
+       $output .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
+       $output .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
    '</ol>';*/
 '</div>';
 
-        for($score = 0; $score < $this-lives; $score++) {
+        for($score = 0; $score < $this->lives; $score++) {
+            $output .+  '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
 
          $output .= '</ol>';
-              return $return;
+              return $output;
 
         }
         
