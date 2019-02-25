@@ -56,18 +56,23 @@ class Game
 
 function displayScore() {
     
-    for ($score=1; $score<=count($lives);--$score);
+   '<div id="scoreboard" class="section">'
+    $user = '<ol>';
+       $user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
+       $user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
+       $user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
+       $user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
+       $user .= '<li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>';
+   '</ol>';
+'</div>';
 
-    '<div id="scoreboard" class="section">
-    <ol>
-        <li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>
-        <li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>
-        <li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>
-        <li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>
-        <li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>
-    </ol>
-</div>';
-echo $game->displayScore();
+        for($score = 0; $score < 5; $score++) {
+
+         $user .= '</ol>';
+              return $user;
+
+        }
+        
     
 }
 

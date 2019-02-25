@@ -26,8 +26,9 @@ echo($game->getPhrase()->getPhrase());
 echo $phrase->addPhraseToDisplay();
 
     echo $game->displayKeyboard();
+    //echo $game->displayScore();
 
-    var_dump($_POST)
+    //var_dump($_POST)
   
      ?> 
       
