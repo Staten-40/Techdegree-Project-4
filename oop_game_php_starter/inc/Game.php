@@ -54,18 +54,20 @@ class Game
    
 }
 
-function displayScore($lives) {
-    for($lives; $lives<=5, $lives--);
+function displayScore() {
+    
+    for ($score=1; $score<=count($lives);--$score);
 
     '<div id="scoreboard" class="section">
     <ol>
-        <li class="tries"><img src="images/loseHeart.png" height="35px" widght="30px"></li>
+        <li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>
         <li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>
         <li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>
         <li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>
         <li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>
     </ol>
 </div>';
+echo $game->displayScore($lives);
     
 }
 
