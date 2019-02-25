@@ -67,7 +67,7 @@ function displayScore() {
         <li class="tries"><img src="images/liveHeart.png" height="35px" widght="30px"></li>
     </ol>
 </div>';
-echo $game->displayScore($lives);
+echo $game->displayScore();
     
 }
 
